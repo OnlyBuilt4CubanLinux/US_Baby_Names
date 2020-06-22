@@ -534,7 +534,7 @@ nationalData %>% filter(Name=="Khaleesi" & Gender=="F") %>% ggplot(aes(x=Year,y=
 
 To begin I needed to introduce some basic parameters so I don't end up with more noise than a Death Grips concert. I looked for names that changed their "Position" by more than 150 in a single year (large increase) and finished within the top 200 names (entered popular territory).
 
-```{r NamesZeitgeist-Plot, fig.align = 'center', fig.cap='Names that leapt into the top 200', echo=FALSE, warning=FALSE}
+```{r NamesZeitgeist-Plot, fig.align = 'center', fig.cap='Names that leapt into the top 200', echo=FALSE, message=FALSE}
 nationalDataChanges %>% filter(Position_Change < -150 & Position < 200) %>% select(Decade, Year,Name,Position,Position_Change,Count,Count_Change) %>% ggplot(aes(x=Decade)) + geom_bar(aes(fill=Gender))  + labs(x = "Year", y = "Number of Names") + theme_bw() + scale_fill_discrete(name="Gender", breaks=c("F", "M"), labels=c("Female", "Male"))
 ```
 

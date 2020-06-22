@@ -452,11 +452,6 @@ So far it appears all 3 of the names I reviewed have been triggered by pop-cultu
 
 To begin I needed to introduce some basic parameters so I don't end up with more noise than a Death Grips concert. I looked for names that changed their "Position" by more than 150 in a single year (large increase) and finished within the top 200 names (entered popular territory).
 
-
-```
-## Adding missing grouping variables: `Gender`
-```
-
 <div class="figure" style="text-align: center">
 <img src="US_Baby_Names_files/figure-html/NamesZeitgeist-Plot-1.png" alt="Names that leapt into the top 200"  />
 <p class="caption">(\#fig:NamesZeitgeist-Plot)Names that leapt into the top 200</p>
