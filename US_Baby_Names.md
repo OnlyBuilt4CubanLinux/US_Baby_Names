@@ -41,11 +41,11 @@ The aim of this task was to undertake an __exploratory analysis__ of a __"skinny
 
 The intention of this report was to explain my thought process at each stage of the process. The focus was on exploratory data analysis (EDA) and there were no modelling or predictive elements.
 
-The tools used to complete this analysis were R and R Markdown. I've hidden most of the code in the published document for the sake of readability but the complete code can be found on my **[Github]**(https://github.com/OnlyBuilt4CubanLinux/US_Baby_Names).
+The tools used to complete this analysis were R and R Markdown. I've hidden most of the code in the published document for the sake of readability but the complete code can be found on my [Github](https://github.com/OnlyBuilt4CubanLinux/US_Baby_Names).
 
 ## About the Dataset
 
-The link to the original dataset can be found **[here]**(https://www.ssa.gov/oact/babynames/limits.html) and contains the names of babies registered with the SSA in the U.S between the years 1880-2018. Only names with 5+ occurrences in a given year are contained within the dataset to protect privacy.
+The link to the original dataset can be found [here](https://www.ssa.gov/oact/babynames/limits.html) and contains the names of babies registered with the SSA in the U.S between the years 1880-2018. Only names with 5+ occurrences in a given year are contained within the dataset to protect privacy.
 
 For this analysis I made the decision to subset the dataset to the 1,000 most popular names for each gender^[Ranking is based on frequency per year and gender. Where counts are tied rankings are assigned alphabetically]. This decision was made to speed up the analysis as I was running R locally^[An alternative would have been to perform calculations on a yearly basis and continually aggregate]. This should be kept in mind when interpreting results as the population is therefore not equivalent to that of all babies born in the US (although trends will be broadly similar). 
 
@@ -482,4 +482,4 @@ R is an excellent language for data analysis and modelling work. Alongside Pytho
 
 ## Contact
 
-If you'd like to get in touch please contact me at my [LinkedIn](https://www.linkedin.com/in/letheby/). All of my personal projects can be found at my **[Github Page]**(https://onlybuilt4cubanlinux.github.io/).
+If you'd like to get in touch please contact me at my [LinkedIn](https://www.linkedin.com/in/letheby/). All of my personal projects can be found at my [Github Page](https://onlybuilt4cubanlinux.github.io/).
