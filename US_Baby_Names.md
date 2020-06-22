@@ -119,14 +119,14 @@ Throughout my life I've always felt like every other person I meet has the same 
 To start with I looked at the distribution of names across a single year, 2018, and split this by Gender. To review the distribution I also needed to add a __"Position"__ field to rank the popularity of each name. A Position value of 1 indicates that a particular name within a given time period is the most common.
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/NameSingle-Plot-1.png" alt="Name Distribution - 2018"  />
+<img src="US_Baby_Names_files/figure-html/NameSingle-Plot-1.png" alt="Name Distribution - 2018"  />
 <p class="caption">(\#fig:NameSingle-Plot)Name Distribution - 2018</p>
 </div>
 
 Figure \@ref(fig:NameSingle-Plot) showed that names are highly skewed for both Males and Females (i.e. the distribution of names is strongly weighted towards the most popular names). To make this relationship clearer I re-plotted the data using a cumulative distribution and added a reference line at the 100th position. 
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/NameSingleCumulative-Plot-1.png" alt="Cumulative Name Distribution - 2018"  />
+<img src="US_Baby_Names_files/figure-html/NameSingleCumulative-Plot-1.png" alt="Cumulative Name Distribution - 2018"  />
 <p class="caption">(\#fig:NameSingleCumulative-Plot)Cumulative Name Distribution - 2018</p>
 </div>
 
@@ -141,7 +141,7 @@ To see whether the concentration of names has changed since 1880 I looked at how
 
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/MedianName-Plot-1.png" alt="Median Name Position"  />
+<img src="US_Baby_Names_files/figure-html/MedianName-Plot-1.png" alt="Median Name Position"  />
 <p class="caption">(\#fig:MedianName-Plot)Median Name Position</p>
 </div>
 
@@ -150,7 +150,7 @@ From Figure \@ref(fig:MedianName-Plot) I could see that the median "Position" fo
 To get a better idea about the shape of the distributions I also plotted the 25^th^, 50^th^ (Median) and 75^th^ percentiles. This gave me a better idea of the distribution shape of names over time. I also split the graph by "Gender" to reduce the amount of information appearing on a single plot.
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/NamePercentiles-Plot-1.png" alt="Position Percentiles Split by Gender"  />
+<img src="US_Baby_Names_files/figure-html/NamePercentiles-Plot-1.png" alt="Position Percentiles Split by Gender"  />
 <p class="caption">(\#fig:NamePercentiles-Plot)Position Percentiles Split by Gender</p>
 </div>
 
@@ -307,7 +307,7 @@ I looked at the behaviour of individual names over time and investigated ways to
 Of the Top 10 names in 1880, 2 male names and 1 female name remain in the Top 10 as of 2018. Next I plotted the "Position" of the Top 10 Female names from 1880 over time to see how their popularity changed.
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/Top10Female-Plot-1.png" alt="Top 10 Female Names of 1880"  />
+<img src="US_Baby_Names_files/figure-html/Top10Female-Plot-1.png" alt="Top 10 Female Names of 1880"  />
 <p class="caption">(\#fig:Top10Female-Plot)Top 10 Female Names of 1880</p>
 </div>
 
@@ -320,7 +320,7 @@ Looking at Figure \@ref(fig:Top10Female-Plot) (and noting that the Y-Axis is usi
 I replotted the data again with just these 3 names and removed the log10 transformation on the y-axis to make the relative movements of each name clearer.
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/Top10FemaleSubset-Plot-1.png" alt="Top 10 Female Names of 1880 (Subset)"  />
+<img src="US_Baby_Names_files/figure-html/Top10FemaleSubset-Plot-1.png" alt="Top 10 Female Names of 1880 (Subset)"  />
 <p class="caption">(\#fig:Top10FemaleSubset-Plot)Top 10 Female Names of 1880 (Subset)</p>
 </div>
 
@@ -346,7 +346,7 @@ These kind of relationships will not always work, a sinusoidal pattern for examp
 
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/StablePopularNames-Plot-1.png" alt="Stable and Popular Names"  />
+<img src="US_Baby_Names_files/figure-html/StablePopularNames-Plot-1.png" alt="Stable and Popular Names"  />
 <p class="caption">(\#fig:StablePopularNames-Plot)Stable and Popular Names</p>
 </div>
 
@@ -355,7 +355,7 @@ If these names were a song they'd be "Never Change" by Jay-Z and like Hov himsel
 
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/PopCycleNames-Plot-1.png" alt="Popular and Cyclical Names"  />
+<img src="US_Baby_Names_files/figure-html/PopCycleNames-Plot-1.png" alt="Popular and Cyclical Names"  />
 <p class="caption">(\#fig:PopCycleNames-Plot)Popular and Cyclical Names</p>
 </div>
 
@@ -364,7 +364,7 @@ Figure \@ref(fig:PopCycleNames-Plot) shows names that started and ended popular 
 
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/Unpopular-Plot-1.png" alt="Out of Fashion Names"  />
+<img src="US_Baby_Names_files/figure-html/Unpopular-Plot-1.png" alt="Out of Fashion Names"  />
 <p class="caption">(\#fig:Unpopular-Plot)Out of Fashion Names</p>
 </div>
 
@@ -384,7 +384,7 @@ To begin with I created new variables to calculate change in "Count" and "Positi
 
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/YoYMove-Plot-1.png" alt="YoY Movements in Names"  />
+<img src="US_Baby_Names_files/figure-html/YoYMove-Plot-1.png" alt="YoY Movements in Names"  />
 <p class="caption">(\#fig:YoYMove-Plot)YoY Movements in Names</p>
 </div>
 
@@ -401,7 +401,7 @@ Note that I suppressed the legend in Figure \@ref(fig:YoYMove-Plot) as it's not 
 I plotted the graph again after filtering for names that increased in "Position" by more than 200 positions and had a "Count" change of more than 1,000 (to reduce noise). Since the volume of observations decreased I used a scatter plot instead of a hex plot.
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/YoYMoveSubset-Plot-1.png" alt="YoY Movements in Names (Subset)"  />
+<img src="US_Baby_Names_files/figure-html/YoYMoveSubset-Plot-1.png" alt="YoY Movements in Names (Subset)"  />
 <p class="caption">(\#fig:YoYMoveSubset-Plot)YoY Movements in Names (Subset)</p>
 </div>
 
@@ -418,7 +418,7 @@ I selected the name Raven to look at first because it's an unusual name and one 
 Firstly I plotted "Count" over time for the name Raven.
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/RavenYoY-Plot-1.png" alt="That's so Raven?"  />
+<img src="US_Baby_Names_files/figure-html/RavenYoY-Plot-1.png" alt="That's so Raven?"  />
 <p class="caption">(\#fig:RavenYoY-Plot)That's so Raven?</p>
 </div>
 
@@ -429,7 +429,7 @@ Further investigation revealed that in 1989 Raven-Symone (at the age of 4) becam
 With Raven out of the way I looked at the remaining 2 names, starting with Bentley.
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/BentleyYoY-Plot-1.png" alt="Bentley"  />
+<img src="US_Baby_Names_files/figure-html/BentleyYoY-Plot-1.png" alt="Bentley"  />
 <p class="caption">(\#fig:BentleyYoY-Plot)Bentley</p>
 </div>
 
@@ -440,7 +440,7 @@ The observation point about Bentley was one that drew my eye as I was aware of t
 However some further googling uncovered that the reality show "16 and Pregnant" premiered in 2009 and prominently featured a baby called Bentley. This show was extremely popular during its time and lead to a number of spin-offs. The show "16 and Pregnant" may have been behind the dramatic increase in popularity as the time-line matches up well and I couldn't find any other competing theories.
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/JaimeYoY-Plot-1.png" alt="Jaime"  />
+<img src="US_Baby_Names_files/figure-html/JaimeYoY-Plot-1.png" alt="Jaime"  />
 <p class="caption">(\#fig:JaimeYoY-Plot)Jaime</p>
 </div>
 
@@ -458,7 +458,7 @@ To begin I needed to introduce some basic parameters so I don't end up with more
 ```
 
 <div class="figure" style="text-align: center">
-<img src="US_Baby_Names__files/figure-html/NamesZeitgeist-Plot-1.png" alt="Names that leapt into the top 200"  />
+<img src="US_Baby_Names_files/figure-html/NamesZeitgeist-Plot-1.png" alt="Names that leapt into the top 200"  />
 <p class="caption">(\#fig:NamesZeitgeist-Plot)Names that leapt into the top 200</p>
 </div>
 
